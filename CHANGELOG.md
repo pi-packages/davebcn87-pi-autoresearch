@@ -4,9 +4,13 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+## [1.6.0] - 2026-06-08
+
 ### Changed
 
+- Autoresearch now stores session files under the `.auto/` subfolder by default, with legacy file fallback for existing sessions.
 - The dashboard widget is now always expanded — the full results table renders inline above the editor at all times. Removed the collapsed one-liner mode and the `Ctrl+Shift+T` expand/collapse toggle (and its `shortcuts.toggleDashboard` config key). Fullscreen (`Ctrl+Shift+F`) remains the only dashboard toggle.
+- Migrated Pi package imports and dependencies from the `@mariozechner` npm scope to `@earendil-works`.
 
 ## [1.5.0] - 2026-06-04
 
